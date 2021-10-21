@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE14673727212106004D52C8 /* libStaticAnimals.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE14672D27212106004D52C8 /* libStaticAnimals.a */; };
+		DE14673827212106004D52C8 /* x86_64-apple-ios-simulator.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DE14672F27212106004D52C8 /* x86_64-apple-ios-simulator.swiftdoc */; };
+		DE14673927212106004D52C8 /* x86_64-apple-ios-simulator.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DE14673027212106004D52C8 /* x86_64-apple-ios-simulator.swiftmodule */; };
+		DE14673A27212106004D52C8 /* x86_64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DE14673127212106004D52C8 /* x86_64.swiftdoc */; };
+		DE14673B27212106004D52C8 /* arm64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DE14673227212106004D52C8 /* arm64.swiftmodule */; };
+		DE14673C27212106004D52C8 /* arm64-apple-ios-simulator.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DE14673327212106004D52C8 /* arm64-apple-ios-simulator.swiftmodule */; };
+		DE14673D27212106004D52C8 /* x86_64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DE14673427212106004D52C8 /* x86_64.swiftmodule */; };
+		DE14673E27212106004D52C8 /* arm64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DE14673527212106004D52C8 /* arm64.swiftdoc */; };
+		DE14673F27212106004D52C8 /* arm64-apple-ios-simulator.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DE14673627212106004D52C8 /* arm64-apple-ios-simulator.swiftdoc */; };
+		DE70C7E927211BD600CC7C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE70C7E827211BD600CC7C2A /* AppDelegate.swift */; };
+		DE70C7ED27211BD600CC7C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE70C7EC27211BD600CC7C2A /* ViewController.swift */; };
+		DE70C7F027211BD600CC7C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE70C7EE27211BD600CC7C2A /* Main.storyboard */; };
+		DE70C7F227211BD700CC7C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE70C7F127211BD700CC7C2A /* Assets.xcassets */; };
+		DE70C7F527211BD700CC7C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE70C7F327211BD700CC7C2A /* LaunchScreen.storyboard */; };
+		DEC4F5BF27211C2500277A8B /* Here.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC4F5BE27211C2500277A8B /* Here.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE14672D27212106004D52C8 /* libStaticAnimals.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticAnimals.a; sourceTree = "<group>"; };
+		DE14672F27212106004D52C8 /* x86_64-apple-ios-simulator.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftdoc"; sourceTree = "<group>"; };
+		DE14673027212106004D52C8 /* x86_64-apple-ios-simulator.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftmodule"; sourceTree = "<group>"; };
+		DE14673127212106004D52C8 /* x86_64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftdoc; sourceTree = "<group>"; };
+		DE14673227212106004D52C8 /* arm64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftmodule; sourceTree = "<group>"; };
+		DE14673327212106004D52C8 /* arm64-apple-ios-simulator.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios-simulator.swiftmodule"; sourceTree = "<group>"; };
+		DE14673427212106004D52C8 /* x86_64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftmodule; sourceTree = "<group>"; };
+		DE14673527212106004D52C8 /* arm64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftdoc; sourceTree = "<group>"; };
+		DE14673627212106004D52C8 /* arm64-apple-ios-simulator.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios-simulator.swiftdoc"; sourceTree = "<group>"; };
+		DE70C7E527211BD600CC7C2A /* SwiftStaticRegression.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStaticRegression.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE70C7E827211BD600CC7C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE70C7EC27211BD600CC7C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE70C7EF27211BD600CC7C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE70C7F127211BD700CC7C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE70C7F427211BD700CC7C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE70C7F627211BD700CC7C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC4F5BE27211C2500277A8B /* Here.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Here.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE70C7E227211BD600CC7C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE14673727212106004D52C8 /* libStaticAnimals.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE14672C27212106004D52C8 /* StaticAnimals-sim */ = {
+			isa = PBXGroup;
+			children = (
+				DE14672D27212106004D52C8 /* libStaticAnimals.a */,
+				DE14672E27212106004D52C8 /* StaticAnimals.swiftmodule */,
+			);
+			name = "StaticAnimals-sim";
+			path = "Libs/StaticAnimals-sim";
+			sourceTree = "<group>";
+		};
+		DE14672E27212106004D52C8 /* StaticAnimals.swiftmodule */ = {
+			isa = PBXGroup;
+			children = (
+				DE14672F27212106004D52C8 /* x86_64-apple-ios-simulator.swiftdoc */,
+				DE14673027212106004D52C8 /* x86_64-apple-ios-simulator.swiftmodule */,
+				DE14673127212106004D52C8 /* x86_64.swiftdoc */,
+				DE14673227212106004D52C8 /* arm64.swiftmodule */,
+				DE14673327212106004D52C8 /* arm64-apple-ios-simulator.swiftmodule */,
+				DE14673427212106004D52C8 /* x86_64.swiftmodule */,
+				DE14673527212106004D52C8 /* arm64.swiftdoc */,
+				DE14673627212106004D52C8 /* arm64-apple-ios-simulator.swiftdoc */,
+			);
+			path = StaticAnimals.swiftmodule;
+			sourceTree = "<group>";
+		};
+		DE70C7DC27211BD600CC7C2A = {
+			isa = PBXGroup;
+			children = (
+				DE14672C27212106004D52C8 /* StaticAnimals-sim */,
+				DE70C7E727211BD600CC7C2A /* SwiftStaticRegression */,
+				DE70C7E627211BD600CC7C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE70C7E627211BD600CC7C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE70C7E527211BD600CC7C2A /* SwiftStaticRegression.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE70C7E727211BD600CC7C2A /* SwiftStaticRegression */ = {
+			isa = PBXGroup;
+			children = (
+				DEC4F5BE27211C2500277A8B /* Here.swift */,
+				DE70C7E827211BD600CC7C2A /* AppDelegate.swift */,
+				DE70C7EC27211BD600CC7C2A /* ViewController.swift */,
+				DE70C7EE27211BD600CC7C2A /* Main.storyboard */,
+				DE70C7F127211BD700CC7C2A /* Assets.xcassets */,
+				DE70C7F327211BD700CC7C2A /* LaunchScreen.storyboard */,
+				DE70C7F627211BD700CC7C2A /* Info.plist */,
+			);
+			path = SwiftStaticRegression;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE70C7E427211BD600CC7C2A /* SwiftStaticRegression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE70C7F927211BD800CC7C2A /* Build configuration list for PBXNativeTarget "SwiftStaticRegression" */;
+			buildPhases = (
+				DE70C7E127211BD600CC7C2A /* Sources */,
+				DE70C7E227211BD600CC7C2A /* Frameworks */,
+				DE70C7E327211BD600CC7C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftStaticRegression;
+			productName = SwiftStaticRegression;
+			productReference = DE70C7E527211BD600CC7C2A /* SwiftStaticRegression.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE70C7DD27211BD600CC7C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DE70C7E427211BD600CC7C2A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = DE70C7E027211BD600CC7C2A /* Build configuration list for PBXProject "SwiftStaticRegression" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE70C7DC27211BD600CC7C2A;
+			productRefGroup = DE70C7E627211BD600CC7C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE70C7E427211BD600CC7C2A /* SwiftStaticRegression */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE70C7E327211BD600CC7C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE14673927212106004D52C8 /* x86_64-apple-ios-simulator.swiftmodule in Resources */,
+				DE14673B27212106004D52C8 /* arm64.swiftmodule in Resources */,
+				DE14673F27212106004D52C8 /* arm64-apple-ios-simulator.swiftdoc in Resources */,
+				DE14673A27212106004D52C8 /* x86_64.swiftdoc in Resources */,
+				DE70C7F527211BD700CC7C2A /* LaunchScreen.storyboard in Resources */,
+				DE14673C27212106004D52C8 /* arm64-apple-ios-simulator.swiftmodule in Resources */,
+				DE14673E27212106004D52C8 /* arm64.swiftdoc in Resources */,
+				DE70C7F227211BD700CC7C2A /* Assets.xcassets in Resources */,
+				DE70C7F027211BD600CC7C2A /* Main.storyboard in Resources */,
+				DE14673827212106004D52C8 /* x86_64-apple-ios-simulator.swiftdoc in Resources */,
+				DE14673D27212106004D52C8 /* x86_64.swiftmodule in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE70C7E127211BD600CC7C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE70C7ED27211BD600CC7C2A /* ViewController.swift in Sources */,
+				DE70C7E927211BD600CC7C2A /* AppDelegate.swift in Sources */,
+				DEC4F5BF27211C2500277A8B /* Here.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE70C7EE27211BD600CC7C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE70C7EF27211BD600CC7C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE70C7F327211BD700CC7C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE70C7F427211BD700CC7C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE70C7F727211BD700CC7C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE70C7F827211BD700CC7C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE70C7FA27211BD800CC7C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftStaticRegression/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libs/StaticAnimals-sim",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftStaticRegression;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Libs/StaticAnimals-sim";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE70C7FB27211BD800CC7C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftStaticRegression/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libs/StaticAnimals-sim",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftStaticRegression;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Libs/StaticAnimals-sim";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE70C7E027211BD600CC7C2A /* Build configuration list for PBXProject "SwiftStaticRegression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE70C7F727211BD700CC7C2A /* Debug */,
+				DE70C7F827211BD700CC7C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE70C7F927211BD800CC7C2A /* Build configuration list for PBXNativeTarget "SwiftStaticRegression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE70C7FA27211BD800CC7C2A /* Debug */,
+				DE70C7FB27211BD800CC7C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE70C7DD27211BD600CC7C2A /* Project object */;
+}
