@@ -28,9 +28,11 @@ Tested with macOS Big Sur 11.6 and Intel MacBook Pro.
 ### Sample projects:
 
 There are 3 sample projects in this repository:
-- One to build the Swift static library (named StaticAnimals);
-- One iOS app integrating the static library as .xcframework;
-- One iOS app integrating the static library `.a` directly, without .xcframework.
+- One sample to build the Swift static library (named StaticAnimals);
+- One sample iOS app integrating the static library as .xcframework;
+- One sample iOS app integrating the static library `.a` directly, without .xcframework.
+
+#### How to run
 
 - Run `make setup` to build de Swift static library (StaticAnimals) for iOS Simulator.
 
