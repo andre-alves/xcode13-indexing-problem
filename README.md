@@ -3,7 +3,11 @@
 ### Summary:
 Currently if you have a project that links a pre-compiled Swift static library (with or without .xcframework), when you try and jump to definition, Xcode fails and shows the question mark pop-up. Syntax highlighting also doesn't work for symbols from the pre-compiled library.
 
-It's a regression from Xcode 13 because everything works as expected in Xcode 12.5. 
+It's a regression from Xcode 13 because everything works as expected in Xcode 12.5.
+
+### Update
+
+Jump to definition bug was fixed in Xcode 13.2. Syntax highlighting is still bugged.
 
 ### Steps to Reproduce:
 1. Pre-compile a Swift static library in a project
@@ -22,6 +26,7 @@ Xcode shows the question mark modal and syntax highlighting doesn't work
 ### Version:
 Xcode 13.0 (13A233)
 Xcode 13.1 RC (13A1030d)
+Xcode 13.2.1 (13C100)
 
 Tested with macOS Big Sur 11.6 and Intel MacBook Pro.
 
