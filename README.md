@@ -1,7 +1,7 @@
 # Xcode 13 indexing regression for Swift static libraries
 
 ### Summary:
-Syntax highlighting doesn't work for symbols from pre-compiled Swift static library (with or without .xcframework), it's 100% reproducible.
+Syntax highlighting doesn't work for symbols from pre-compiled Swift static libraries (with or without .xcframework), it's 100% reproducible.
 
 It's a regression from Xcode 13 because everything works as expected in Xcode 12.5.
 
@@ -38,12 +38,12 @@ There are 3 sample projects in this repository:
 
 - Open `XCFrameworkRegressionProject/XCFrameworkRegression.xcodeproj` with Xcode 13
 - Go to `Here.swift`
-- Build for simulator (should be succesful)
+- Build for simulator (should be successful)
 - Check syntax highlighting
 
 - Open `SwiftStaticRegressionProject/SwiftStaticRegression.xcodeproj` with Xcode 13
 - Go to `Here.swift`
-- Build for simulator (should be succesful)
+- Build for simulator (should be successful)
 - Check syntax highlighting
 
 Both projects can also be tested with Xcode 12.5 for comparison.
