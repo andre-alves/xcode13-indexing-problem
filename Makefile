@@ -25,11 +25,10 @@ setup: build_static_library
 	@echo "- It's an iOS app binary linked with StaticAnimals.xcframework (Swift static library)"
 	@echo "- Go to 'Here.swift'"
 	@echo "- Build for simulator (should be succesful)"
-	@echo "- Check Syntax highlighting and Jump to definition"
+	@echo "- Check Syntax highlighting"
 	@echo ""
 	@echo "Please, also check 'SwiftStaticRegressionProject/SwiftStaticRegression.xcodeproj' with Xcode 13"
 	@echo "- Very similar to the other project, and has the same issues, but using the static library directly (no .xcframework)"
-	@echo "- Only .swiftmodule and .swiftdoc provided, because AFAIK .swiftinterface and .swiftsourceinfo are optional"
 	@echo ""
 
 build_static_library: clean

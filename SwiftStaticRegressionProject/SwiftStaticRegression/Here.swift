@@ -1,5 +1,5 @@
 import Foundation
-import StaticAnimals // Jump to definition failing (expectation: open the module interface)
+import StaticAnimals
 
 final class Here {
 
@@ -8,7 +8,6 @@ final class Here {
          Symbols from StaticAnimals (Swift static library):
          - Syntax highlighting is not working
          - Auto completion is working
-         - Jump to definition not working (expectation: open the module interface)
          */
         let cat = Cat(name: "Kit")
         cat.meow()

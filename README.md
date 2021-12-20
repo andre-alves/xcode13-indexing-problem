@@ -1,13 +1,9 @@
 # Xcode 13 indexing regression for Swift static libraries
 
 ### Summary:
-Currently if you have a project that links a pre-compiled Swift static library (with or without .xcframework), when you try and jump to definition, Xcode fails and shows the question mark pop-up. Syntax highlighting also doesn't work for symbols from the pre-compiled library.
+Syntax highlighting doesn't work for symbols from pre-compiled Swift static library (with or without .xcframework), it's 100% reproducible.
 
 It's a regression from Xcode 13 because everything works as expected in Xcode 12.5.
-
-### Update
-
-Jump to definition bug was fixed in Xcode 13.2. Syntax highlighting is still bugged.
 
 ### Steps to Reproduce:
 1. Pre-compile a Swift static library in a project
@@ -15,20 +11,19 @@ Jump to definition bug was fixed in Xcode 13.2. Syntax highlighting is still bug
 3. Add the library path to `SWIFT_INCLUDE_PATHS` and `LIBRARY_SEARCH_PATHS`
 4. Reference a symbol from the library
 5. Build (this should be successful)
-6. Jump to definition on either the import declaration or the symbol. Also check syntax highlighting
+6. Check syntax highlighting
 
 ### Expected Results:
-You see the generated interface of the Swift module and syntax highlighting
+Syntax highlighting for symbols from the pre-compiled library to work.
 
 ### Actual Results:
-Xcode shows the question mark modal and syntax highlighting doesn't work
+Syntax highlighting doesn't work.
 
 ### Version:
 Xcode 13.0 (13A233)
-Xcode 13.1 RC (13A1030d)
 Xcode 13.2.1 (13C100)
 
-Tested with macOS Big Sur 11.6 and Intel MacBook Pro.
+Tested with macOS Big Sur 11.6, Monterey 12.0.1 and Intel MacBook Pro.
 
 ### Sample projects:
 
@@ -44,12 +39,11 @@ There are 3 sample projects in this repository:
 - Open `XCFrameworkRegressionProject/XCFrameworkRegression.xcodeproj` with Xcode 13
 - Go to `Here.swift`
 - Build for simulator (should be succesful)
-- Check syntax highlighting and jump to definition
+- Check syntax highlighting
 
 - Open `SwiftStaticRegressionProject/SwiftStaticRegression.xcodeproj` with Xcode 13
 - Go to `Here.swift`
 - Build for simulator (should be succesful)
-- Check syntax highlighting and jump to definition
-- _Note: for this project, only .swiftmodule and .swiftdoc was provided, because AFAIK .swiftinterface and .swiftsourceinfo are optional_
+- Check syntax highlighting
 
 Both projects can also be tested with Xcode 12.5 for comparison.
