@@ -20,10 +20,11 @@ Syntax highlighting for symbols from the pre-compiled library to work.
 Syntax highlighting doesn't work.
 
 ### Version:
-Xcode 13.0 (13A233)
 Xcode 13.2.1 (13C100)
 
-Tested with macOS Big Sur 11.6, Monterey 12.0.1 and Intel MacBook Pro.
+Xcode 13.3 Beta (13E5086k)
+
+Tested with macOS Monterey 12.2 and Intel MacBook Pro.
 
 ### Sample projects:
 
