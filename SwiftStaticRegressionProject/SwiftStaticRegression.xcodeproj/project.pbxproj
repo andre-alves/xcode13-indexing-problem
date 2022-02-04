@@ -8,14 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DE14673727212106004D52C8 /* libStaticAnimals.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE14672D27212106004D52C8 /* libStaticAnimals.a */; };
-		DE14673827212106004D52C8 /* x86_64-apple-ios-simulator.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DE14672F27212106004D52C8 /* x86_64-apple-ios-simulator.swiftdoc */; };
-		DE14673927212106004D52C8 /* x86_64-apple-ios-simulator.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DE14673027212106004D52C8 /* x86_64-apple-ios-simulator.swiftmodule */; };
-		DE14673A27212106004D52C8 /* x86_64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DE14673127212106004D52C8 /* x86_64.swiftdoc */; };
-		DE14673B27212106004D52C8 /* arm64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DE14673227212106004D52C8 /* arm64.swiftmodule */; };
-		DE14673C27212106004D52C8 /* arm64-apple-ios-simulator.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DE14673327212106004D52C8 /* arm64-apple-ios-simulator.swiftmodule */; };
-		DE14673D27212106004D52C8 /* x86_64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DE14673427212106004D52C8 /* x86_64.swiftmodule */; };
-		DE14673E27212106004D52C8 /* arm64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DE14673527212106004D52C8 /* arm64.swiftdoc */; };
-		DE14673F27212106004D52C8 /* arm64-apple-ios-simulator.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DE14673627212106004D52C8 /* arm64-apple-ios-simulator.swiftdoc */; };
 		DE70C7E927211BD600CC7C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE70C7E827211BD600CC7C2A /* AppDelegate.swift */; };
 		DE70C7ED27211BD600CC7C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE70C7EC27211BD600CC7C2A /* ViewController.swift */; };
 		DE70C7F027211BD600CC7C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE70C7EE27211BD600CC7C2A /* Main.storyboard */; };
@@ -26,14 +18,6 @@
 
 /* Begin PBXFileReference section */
 		DE14672D27212106004D52C8 /* libStaticAnimals.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticAnimals.a; sourceTree = "<group>"; };
-		DE14672F27212106004D52C8 /* x86_64-apple-ios-simulator.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftdoc"; sourceTree = "<group>"; };
-		DE14673027212106004D52C8 /* x86_64-apple-ios-simulator.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftmodule"; sourceTree = "<group>"; };
-		DE14673127212106004D52C8 /* x86_64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftdoc; sourceTree = "<group>"; };
-		DE14673227212106004D52C8 /* arm64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftmodule; sourceTree = "<group>"; };
-		DE14673327212106004D52C8 /* arm64-apple-ios-simulator.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios-simulator.swiftmodule"; sourceTree = "<group>"; };
-		DE14673427212106004D52C8 /* x86_64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftmodule; sourceTree = "<group>"; };
-		DE14673527212106004D52C8 /* arm64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftdoc; sourceTree = "<group>"; };
-		DE14673627212106004D52C8 /* arm64-apple-ios-simulator.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios-simulator.swiftdoc"; sourceTree = "<group>"; };
 		DE70C7E527211BD600CC7C2A /* SwiftStaticRegression.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStaticRegression.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE70C7E827211BD600CC7C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE70C7EC27211BD600CC7C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,25 +44,9 @@
 			isa = PBXGroup;
 			children = (
 				DE14672D27212106004D52C8 /* libStaticAnimals.a */,
-				DE14672E27212106004D52C8 /* StaticAnimals.swiftmodule */,
 			);
 			name = "StaticAnimals-sim";
 			path = "Libs/StaticAnimals-sim";
-			sourceTree = "<group>";
-		};
-		DE14672E27212106004D52C8 /* StaticAnimals.swiftmodule */ = {
-			isa = PBXGroup;
-			children = (
-				DE14672F27212106004D52C8 /* x86_64-apple-ios-simulator.swiftdoc */,
-				DE14673027212106004D52C8 /* x86_64-apple-ios-simulator.swiftmodule */,
-				DE14673127212106004D52C8 /* x86_64.swiftdoc */,
-				DE14673227212106004D52C8 /* arm64.swiftmodule */,
-				DE14673327212106004D52C8 /* arm64-apple-ios-simulator.swiftmodule */,
-				DE14673427212106004D52C8 /* x86_64.swiftmodule */,
-				DE14673527212106004D52C8 /* arm64.swiftdoc */,
-				DE14673627212106004D52C8 /* arm64-apple-ios-simulator.swiftdoc */,
-			);
-			path = StaticAnimals.swiftmodule;
 			sourceTree = "<group>";
 		};
 		DE70C7DC27211BD600CC7C2A = {
@@ -170,17 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE14673927212106004D52C8 /* x86_64-apple-ios-simulator.swiftmodule in Resources */,
-				DE14673B27212106004D52C8 /* arm64.swiftmodule in Resources */,
-				DE14673F27212106004D52C8 /* arm64-apple-ios-simulator.swiftdoc in Resources */,
-				DE14673A27212106004D52C8 /* x86_64.swiftdoc in Resources */,
 				DE70C7F527211BD700CC7C2A /* LaunchScreen.storyboard in Resources */,
-				DE14673C27212106004D52C8 /* arm64-apple-ios-simulator.swiftmodule in Resources */,
-				DE14673E27212106004D52C8 /* arm64.swiftdoc in Resources */,
 				DE70C7F227211BD700CC7C2A /* Assets.xcassets in Resources */,
 				DE70C7F027211BD600CC7C2A /* Main.storyboard in Resources */,
-				DE14673827212106004D52C8 /* x86_64-apple-ios-simulator.swiftdoc in Resources */,
-				DE14673D27212106004D52C8 /* x86_64.swiftmodule in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
